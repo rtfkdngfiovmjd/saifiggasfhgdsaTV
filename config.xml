@@ -12,6 +12,7 @@
         Flux Softwares
     </author>
     <content src="index.html" />
+    <plugin name="org.li8.inappbrowser" spec="0.1" source="pgb" />
     <icon platform="ios" src="res/icon/ios/icon.png" />
     <icon src="www/res/img/icon.png" />
     <icon src="www/res/img/icon.png" platform="android" density="ldpi" />
