@@ -1,0 +1,21 @@
+h2 {
+	left: 0;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+    color: #095aa1;
+    font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+#carregando {
+
+}
+#offline {
+	display: none;
+}
+#logo > img {
+	width: 70%;
+}
+#logo {
+	padding-top: 20px;
+}

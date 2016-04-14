@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.fluxsoftwares.doctumtv"
+        versionCode = "100" 
+        version     = "1.0.0" >
+    <name>DOCTUM TV</name>
+    <description>
+        Assista a Doctum TV online no seu smartphone
+    </description>
+    <author email="suporte@fluxsoftwares.com" href="http://www.fluxsoftwares.com.br/">
+        Flux Softwares
+    </author>
+    <content src="index.html" />
+    <icon platform="ios" src="res/icon/ios/icon.png" />
+    <icon src="www/res/img/icon.png" />
+    <icon src="www/res/img/icon.png" platform="android" density="ldpi" />
+    <icon src="www/res/img/icon.png" platform="android" density="mdpi" />
+    <icon src="www/res/img/icon.png" platform="android" density="hdpi" />
+    <icon src="www/res/img/icon.png" platform="android" density="xhdpi" />
+    <icon src="res/icon/ios/icon-57.png" platform="ios" width="57" height="57" />
+    <icon src="res/icon/ios/icon-72.png" platform="ios" width="72" height="72" />
+    <icon src="res/icon/ios/icon-57-2x.png" platform="ios" width="114" height="114" />
+    <icon src="res/icon/ios/icon-72-2x.png" platform="ios" width="144" height="144" />
+    <icon src="res/icon/ios/icon-60-2x.png" platform="ios" width="120" height="120" />
+    <icon src="res/icon/ios/icon-76-2x.png" platform="ios" width="152" height="152" />
+    <icon src="res/icon/ios/icon-76.png" platform="ios" width="76" height="76" />
+</widget>
