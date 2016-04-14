@@ -12,7 +12,7 @@
         Flux Softwares
     </author>
     <content src="index.html" />
-    <plugin name="npm i cordova-plugin-inappbrowse" source="https://github.com/apache/cordova-plugin-inappbrowser.git" />
+    <plugin name="cordova-plugin-inappbrowse" source="https://github.com/apache/cordova-plugin-inappbrowser.git" />
     <icon platform="ios" src="res/icon/ios/icon.png" />
     <icon src="www/res/img/icon.png" />
     <icon src="www/res/img/icon.png" platform="android" density="ldpi" />
