@@ -1,6 +1,19 @@
+var videoUrl = 'https://www.youtube.com/embed/7KjsXBL5hQo?rel=0&controls=0&showinfo=0&autoplay=1';
+var ref = {};
+
 function onDeviceReady() {
-    var videoUrl = 'https://www.youtube.com/embed/mCKoW2-pLh4?rel=0&controls=0&showinfo=0&autoplay=1';
-    var ref = cordova.InAppBrowser.open(videoUrl, '_blank', 'location=no,zoom=no,hardwareback=no');
+    onDeviceResume();
+}
+
+function botaoVoltar() {
+    return false;
+}
+
+function onDevicePause() {
+    ref.close();
+}
+function onDeviceResume() {
+    ref = cordova.InAppBrowser.open(videoUrl, '_blank', 'location=no,zoom=no,hardwareback=no,toolbar=no');
     ref.addEventListener('loadstop', function() {
         ref.executeScript(
             {code: "var elem = document.getElementsByClassName('ytp-watermark')[0];\
@@ -15,11 +28,9 @@ function onDeviceReady() {
     });
 }
 
-function botaoVoltar() {
-    return false;
-}
-
 document.addEventListener("deviceready", onDeviceReady, false); 
+document.addEventListener("pause", onDevicePause, false); 
+document.addEventListener("resume", onDeviceResume, false); 
 document.addEventListener("backbutton", botaoVoltar, false);
 
 $(function() {
