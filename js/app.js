@@ -1,4 +1,4 @@
-var videoUrl = 'https://www.youtube.com/embed/7KjsXBL5hQo?rel=0&controls=0&showinfo=0&autoplay=1';
+var videoUrl = 'https://www.youtube.com/embed/z7ukQZza0Fk?rel=0&controls=0&showinfo=0&autoplay=1';
 var ref = {};
 
 function onDeviceReady() {
